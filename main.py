@@ -10,8 +10,8 @@ face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1, min_
                                   min_tracking_confidence=0.5)
 
 # Загрузка масок
-mask_left = cv2.imread('mask_left.png', -1)
-mask_right = cv2.imread('mask_right.png', -1)
+mask_left = cv2.imread('media/mask_left.png', -1)
+mask_right = cv2.imread('media/mask_right.png', -1)
 
 # Запуск видеопотока с камеры
 video_capture = cv2.VideoCapture(0)
